@@ -166,6 +166,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
             while (i < bills.size() && date.compareTo(bills.get(i).getDate()) < 0)
             {
                 ++i;
+
             }
             bills.add(i, bill);
         }
