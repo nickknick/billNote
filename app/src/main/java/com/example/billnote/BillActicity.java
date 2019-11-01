@@ -133,7 +133,7 @@ public class BillActicity extends Activity {
         button_billPic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //先跳转到系统相册
+                //跳转到系统相册
                 Intent intent_billPic = new Intent(
                         Intent.ACTION_PICK,
                         MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
@@ -162,7 +162,7 @@ public class BillActicity extends Activity {
         }
         else
         {
-            Toast.makeText(this, "请检查网络或GPS是否打开",
+            Toast.makeText(this, "请检查网络或GPS权限是否打开",
                     Toast.LENGTH_LONG).show();
         }
         if (provider != null)
@@ -177,7 +177,7 @@ public class BillActicity extends Activity {
                 return null;
             }
             location = locationManager.getLastKnownLocation(provider);
-            //location转地名
+            //定位转换成地名
             List<Address> result = null;
             try {
                 if (location != null)
@@ -215,7 +215,7 @@ public class BillActicity extends Activity {
         editText_billMoney.setText(str);
         editText_billEvent.setText(modifiedBill.getEvent());
         editText_billLocation.setText(modifiedBill.getLocation());
-        //还差图片
+        //图片
         String picPath = modifiedBill.getPicPath();
         if (picPath == null)
         {

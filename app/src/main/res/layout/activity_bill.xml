@@ -9,7 +9,7 @@
         android:id="@+id/tb_billActivity"
         android:layout_width="425dp"
         android:layout_height="80dp"
-        android:background="?attr/colorPrimary"
+        android:background="#F0FFC107"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintStart_toStartOf="parent"
@@ -155,7 +155,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
-        android:text="项目"
+        android:text="内容"
         app:layout_constraintStart_toStartOf="@+id/tb_billBack3"
         app:layout_constraintTop_toTopOf="@+id/tb_billBack3" />
 
