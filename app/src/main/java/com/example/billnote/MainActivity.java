@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         bills.add(new SingleBill());
         bills.add(new SingleBill());
         bills.add(new SingleBill());
+
         //填list数据
         fillListWithData();
         //设置各个按钮的点击函数
