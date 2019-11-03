@@ -1,8 +1,6 @@
-package com.example.billnote;
-import android.location.LocationManager;
+package com.example.MyBill;
 
 import java.io.Serializable;
-import java.util.LinkedList;
 import  java.util.Date;
 
 public class SingleBill implements Serializable {

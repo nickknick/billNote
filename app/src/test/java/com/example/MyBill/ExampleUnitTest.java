@@ -1,4 +1,4 @@
-package com.example.billnote;
+package com.example.MyBill;
 
 import org.junit.Test;
 

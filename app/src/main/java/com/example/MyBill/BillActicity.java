@@ -1,4 +1,4 @@
-package com.example.billnote;
+package com.example.MyBill;
 
 import android.Manifest;
 import android.app.Activity;
